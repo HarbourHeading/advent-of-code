@@ -1,20 +1,5 @@
-from dataclasses import dataclass
 from time import time
 import numpy
-
-#@dataclass
-#class Column: # Vertical
-#    index: int # Maps to row index
-#    number: int
-#    next_operator: str
-#    max_rows: int # Per column
-
-@dataclass
-class Column: # Horizontal
-    index: list[int] # Maps to column index
-    total_columns: list[int]
-    entries: list[int | str]
-
 
 def main():
 
