@@ -83,4 +83,4 @@ if __name__ == "__main__":
     main()
     end = time()
 
-    print("Total time: %.10f seconds" % (end - start))
+    print("Total time: %.10f seconds" % (end - start)) # ~1.15s
